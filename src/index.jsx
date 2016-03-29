@@ -1,12 +1,12 @@
 import React from 'react';
-import ReactDom from 'react-dom';
-import {browserHistory , router} from 'react-router';
+import ReactDOM from 'react-dom';
+import {browserHistory, Router} from 'react-router';
 import routes from './routes.jsx';
 
-var bodyMount = doucment.getElementById('body-mount-point');
+var bodyMount = document.getElementById('body-mount-point');
 
 ReactDOM.render(
-		<Router history={browserHistory}>
-			{routes}
-		</Router>
-		,bodyMount);
+    <Router history={browserHistory} >
+        {routes}
+    </Router>
+, bodyMount);

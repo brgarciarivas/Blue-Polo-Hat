@@ -1,10 +1,11 @@
 import React from 'react';
 import {Route, IndexRoute} from 'react-router';
 
-import App from './components/App.jsx';
+import Home from './components/Home.jsx';
 
-module.export = {
+
+module.exports = (
 	<Route path='/' component={Home}>
 		<IndexRoute component={Home}/>
 	</Route>	
-}
+);
