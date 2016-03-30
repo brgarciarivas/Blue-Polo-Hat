@@ -1,6 +1,6 @@
 import React from 'react';
 import Base from './Base.jsx';
-
+import LandingPage from './LandingPage.jsx';
 
 export default class Home extends Base {
 	constructor(props) {
@@ -14,8 +14,9 @@ export default class Home extends Base {
 	render() {
 	
 		return (
-			<div className="home ">
-				<p>we lit</p>
+			<div id="home">
+				<LandingPage />
+
 			</div>
 		)
 	}
