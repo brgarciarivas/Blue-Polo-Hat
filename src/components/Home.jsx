@@ -16,7 +16,6 @@ export default class Home extends Base {
 		return (
 			<div id="home">
 				<LandingPage />
-
 			</div>
 		)
 	}

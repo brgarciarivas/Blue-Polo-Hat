@@ -22,9 +22,9 @@ module.exports = {
 				test: /\.jsx?$/,
 				loader: 'babel-loader',
 				exclude: /node_modules/,
-				query: {
-					presets: ['es2015', 'react']
-				}
+				include: [
+					path.resolve(__dirname, 'src'),
+				]
 			},
 			{
 				test: /\.json$/,
@@ -34,7 +34,7 @@ module.exports = {
 			{
 				test: /\.less$/,
 				exclude: /node_modules/,
-				loader: 'style!css!less'
+				loader: 'style!css!autoprefixer!less'
 			}
 		]
 	},
