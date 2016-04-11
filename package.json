@@ -22,6 +22,7 @@
   "author": "brgarciarivas",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.3.2",
     "babel-runtime": "^6.5.0",
     "body-parser": "^1.14.2",
     "express": "^4.13.4",
