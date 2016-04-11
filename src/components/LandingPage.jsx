@@ -11,10 +11,12 @@ export default class LandingPage extends Base {
 					<FeelTheEconomy />
 					
 					<div className='button-container'>
-						<div className='set-flex join-movement'>
+					
+						<a className='set-flex join-movement' href='http://www.facebook.com/groups/1530020757301559/' target='blank'>
 							<i className='fa fa-facebook'></i>
 							<p id='join-the-movement'>Join the Movement</p>
-						</div>
+						</a>	
+						
 						
 						
 					</div>
