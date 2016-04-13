@@ -1,6 +1,7 @@
 import React from 'react';
 import Base from './Base.jsx';
 import LandingPage from './LandingPage.jsx';
+import LandingPageInfo from './LandingPageInfo.jsx';
 
 export default class Home extends Base {
 	constructor(props) {
@@ -16,6 +17,7 @@ export default class Home extends Base {
 		return (
 			<div id="home">
 				<LandingPage />
+				<LandingPageInfo />
 			</div>
 		)
 	}
