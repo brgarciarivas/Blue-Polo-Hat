@@ -33,7 +33,7 @@ export default class LandingHeader extends Base{
 								<img id='setmine-logo' src="http://d1wbxby8dwa4u.cloudfront.net/namecheap/setmine-logo-white.png"/>
 								<h1 id='setcoins-landing-header'>Setcoins</h1>
 						</div>
-						<h1 id='btc-value'>1  BTC  = ${this.state.btcValue}</h1>
+						<h1 id='btc-value'>1 testing testing BTC  = ${this.state.btcValue}</h1>
 					</div>
 			)
 		}
