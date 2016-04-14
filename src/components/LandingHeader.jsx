@@ -25,6 +25,8 @@ export default class LandingHeader extends Base{
 					btcValue: btcValue
 				})
 			});
+
+			
 		}
 	render(){
 		return(

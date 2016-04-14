@@ -3,27 +3,35 @@ import Base from './Base.jsx'
 import api from '../scripts/api.js';
 
 
-
 export default class LandingPageInfo extends Base{
 		
 	render(){
 		return(
 					<div className='landing-page-info set-flex'>
 						<div className='landing-info-container'>
-							<div className='info-tile'>
-								<p>You’re missing the point of Bitcoin if you feel left out. You can be as involved as you want to be, just go make something happen. Find something you think needs doing, recruit some people to help if you need help, and do it. Are you waiting for an invitation or permission from somebody? — Gavin Andresen, Lead Developer for Bitcoin.
-								</p>
-								<hr className='hr'/>
+							<div className='landing-info-text'>
+								<div  className='info-text-container'>
+									<div className='btc-logo-container'>
+										<i className='fa fa-btc'/>
+									</div>
+									<div className='info-text'>
+										asdf
+									</div>	
+								</div>
+
+								<div className='info-text-container'>
+									<div className='btc-logo-container'>
+										<i className='fa fa-btc'/>
+									</div>
+									<div className='info-text'>
+										asdf
+									</div>	
+
+								</div>
 							</div>
-							<div className='info-tile'>
-							<p>  head bussa</p>
-							<hr className='hr'/>
+							<div className='info-video-container'>
+								<iframe id='btc-video' src="https://www.youtube.com/embed/Um63OQz3bjo" frameBorder="0" allowFullScreen></iframe>
 							</div>
-							<div className='info-tile'>
-							<p>you </p>
-							<hr className='hr'/>
-							</div>
-							
 						</div>
 					</div>
 			)
