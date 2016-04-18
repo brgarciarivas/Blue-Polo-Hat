@@ -19,7 +19,7 @@ export default class Home extends Base {
 			<div id="home">
 				<LandingPage />
 				<LandingPageInfo />
-				<LanidngFooter/>
+				
 			</div>
 		)
 	}

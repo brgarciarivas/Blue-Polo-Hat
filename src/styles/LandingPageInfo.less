@@ -1,6 +1,6 @@
 .landing-page-info{
 	width: 100vw;
-	height: 150vh;
+	height: 200vh;
 	background-color: #fff;
 	align-items: center;
 	justify-content: center;
@@ -9,7 +9,7 @@
 
 .landing-info-container{
 	width: 94vw;
-	height: 140vh;
+	height: 170vh;
 	background-color: #fff;
 	border-radius: 4px;
 	display: flex;
@@ -24,7 +24,7 @@
 	align-items: center;
 	justify-content: space-between;
 	width:100%;
-	height: 30vh;
+	height: 40vh;
 }
 .info-text-container{
 	width: 48%;
@@ -38,6 +38,18 @@
 
 
 
+}
+
+//Media Queires for Info Text Container
+@media only screen and (max-width: 480px) {
+	.landing-info-text{
+		flex-direction: column;
+		height: 60vh;
+	}
+	.info-text-container{
+		height: 45%;
+		width: 80%;
+	}
 }
 
 .btc-logo-container{
@@ -67,11 +79,18 @@
 
 }
 #btc-video{
-	width: 40vw;
-	height: 40vh;
+	width: 45vw;
+	height: 45vh;
 
 }
 
+//Media Queires for BTC Video
+@media only screen and (max-width: 480px) {
+	#btc-video{
+		height: 30vh;
+		width: 70vw;
+	}
+}
 
 #graph{
 	width: 50vw;
