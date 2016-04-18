@@ -32,6 +32,9 @@ export default class LandingPageInfo extends Base{
 							<div className='info-video-container'>
 								<iframe id='btc-video' src="https://www.youtube.com/embed/Um63OQz3bjo" frameBorder="0" allowFullScreen></iframe>
 							</div>
+							<div className='graph'>
+								<img src='/img/TotalNumberTransactions-600.jpg'/>
+							</div>
 						</div>
 					</div>
 			)
